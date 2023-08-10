@@ -2,6 +2,8 @@
 
 This implements a chatbot that utilizes Sentence Transformation and OpenAI's GPT-3 model to enhance user interactions. The chatbot aims to provide relevant responses to user queries by refining and enhancing their input queries, finding similar sentences using Sentence Transformation, and generating more contextually accurate conversation logs.
 
+#### Given a knowledge base whose vectors are stored in a pinecone, the chatbot provides answers to the questions that are most relevant to the context.
+
 ### Dependencies
 
 The code uses the following Python libraries:
